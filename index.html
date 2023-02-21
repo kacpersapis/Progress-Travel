@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Travel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@300;600&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/809b11ff57.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <button class="burger-btn">
+        <div class="burger-btn__box">
+            <div class="burger-btn__bars"></div>
+        </div>
+    </button>
+    <!-- nwaigacja  -->
+    <nav class="nav">
+        <h1 class="logo"><a href="#">Progress Travel</a></h1>
+        <ul class="main-nav">
+            <li class="li"><a href="#aboutus" class="nav-link">O nas</a></li>
+            <li class="li"><a href="#ourcars" class="nav-link">Flota</a></li>
+            <li class="li"><a href="#offers" class="nav-link">Oferta</a></li>
+            <li class="li"><a href="#contact" class="nav-link">Kontakt</a></li>
+            <a href="#" class="fa-brands fa-square-facebook"></a>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <div class="hero__content">
+            <h1 class="hero__title" data-aos="fade-up" data-aos-delay="400">Progress Travel – Michał Przybylski</h1>
+            <p class="hero__text" data-aos="fade-up" data-aos-delay="600">Wynajem autokarów, przewóz osób, przewozy
+                autokarowe, wycieczki, bus Częstochowa.</p>
+        </div>
+
+    </div>
+
+    <!-- o nas  -->
+
+    <main id="aboutus" class="main">
+        <section class="about section-padding section">
+            <div class="wrapper">
+                <h2 class="section-heading">O nas</h2>
+                <div class="underline"></div>
+                <div class="about__box">
+                    <div class="about__box-img" data-aos="fade-right" data-aos-delay="200">
+                        <img src="/img/onas.jpg" alt="O nas" class="about__img">
+                    </div>
+                    <div class="about__box-text">
+                        <p class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+                            veniam beatae modi laboriosam odit quod, facere dignissimos pariatur corrupti excepturi.
+                            Quasi laborum, maiores ab dignissimos cumque dolorum quis optio ea molestiae est cupiditate
+                            ex atque exercitationem dolore sunt labore quaerat aliquid animi eligendi tenetur numquam!
+                            Repellat fugit, nemo quidem, nesciunt obcaecati veniam unde, cupiditate a praesentium dolore
+                            nisi magni?</p>
+                        <p class="about__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate, possimus repellendus
+                            iste dolor earum architecto!</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="ourcars" class="ourcars section-padding section">
+            <div class="wrapper">
+                <h2 class="section-heading">Nasza flota</h2>
+                <div class="underline"></div>
+                <p class="ourcars__p">Zapraszamy do zapoznanie się z ofertą naszych autokarów na wynajem.</p>
+                <div class="ourcars__cards">
+
+                    <!-- first  -->
+                    <div class="ourcars__card" onclick="volid(0)">
+                        <div class="ourcars__card-img ourcars__card-img--first">
+                            <h3 class="ourcars__card-img-title">Neoplan</h3>
+                            <p class="ourcars__card-img-info"> <i class="fas fa-angle-double-right"></i> Więcej
+                                informacji</p>
+                        </div>
+                        <div class="ourcars__card-info">
+                            <h3 class="ourcars__card-info-title">Neoplan</h3>
+                            <ul class="ourcars__card-info-list">
+                                <li class="ourcars__card-info-list-item">Rok produkcji: 2014
+                                </li>
+                                <li class="ourcars__card-info-list-item">Ilość miejsc: 51+1+1</li>
+                                <li class="ourcars__card-info-list-item">WC
+                                </li>
+                                <li class="ourcars__card-info-list-item">Klimatyzacja</li>
+                                <li class="ourcars__card-info-list-item">Pasy bezpieczeństwa</li>
+                            </ul>
+                            <a href="#contact"><button class="ourcars__card-info-btn btn-special-animation">Zapytaj o termin</button></a>
+                        </div>
+                    </div>
+                    <!-- second  -->
+                    <div class="ourcars__card" onclick="volid(0)">
+                        <div class="ourcars__card-img ourcars__card-img--second">
+                            <h3 class="ourcars__card-img-title">Man</h3>
+                            <p class="ourcars__card-img-info"> <i class="fas fa-angle-double-right"></i> Więcej
+                                informacji</p>
+                        </div>
+                        <div class="ourcars__card-info">
+                            <h3 class="ourcars__card-info-title">Man</h3>
+                            <ul class="ourcars__card-info-list">
+                                <li class="ourcars__card-info-list-item">Rok produkcji: 2014
+                                </li>
+                                <li class="ourcars__card-info-list-item">Ilość miejsc: 51+1+1</li>
+                                <li class="ourcars__card-info-list-item">WC
+                                </li>
+                                <li class="ourcars__card-info-list-item">Klimatyzacja</li>
+                                <li class="ourcars__card-info-list-item">Pasy bezpieczeństwa</li>
+                            </ul>
+                            <a href="#contact"><button class="ourcars__card-info-btn btn-special-animation">Zapytaj o termin</button></a>
+                        </div>
+                    </div>
+                    <!-- third  -->
+                    <div class="ourcars__card" onclick="volid(0)">
+                        <div class="ourcars__card-img ourcars__card-img--third">
+                            <h3 class="ourcars__card-img-title">Setra</h3>
+                            <p class="ourcars__card-img-info"> <i class="fas fa-angle-double-right"></i> Więcej
+                                informacji</p>
+                        </div>
+                        <div class="ourcars__card-info">
+                            <h3 class="ourcars__card-info-title">Setra</h3>
+                            <ul class="ourcars__card-info-list">
+                                <li class="ourcars__card-info-list-item">Rok produkcji: 2014
+                                </li>
+                                <li class="ourcars__card-info-list-item">Ilość miejsc: 51+1+1</li>
+                                <li class="ourcars__card-info-list-item">WC
+                                </li>
+                                <li class="ourcars__card-info-list-item">Klimatyzacja</li>
+                                <li class="ourcars__card-info-list-item">Pasy bezpieczeństwa</li>
+                            </ul>
+                            <a href="#contact"><button class="ourcars__card-info-btn btn-special-animation">Zapytaj o termin</button></a>
+                        </div>
+                    </div>
+                    <!-- four  -->
+                    <div class="ourcars__card" onclick="volid(0)">
+                        <div class="ourcars__card-img ourcars__card-img--four">
+                            <h3 class="ourcars__card-img-title">Scania</h3>
+                            <p class="ourcars__card-img-info"> <i class="fas fa-angle-double-right"></i> Więcej
+                                informacji</p>
+                        </div>
+                        <div class="ourcars__card-info">
+                            <h3 class="ourcars__card-info-title">Scania</h3>
+                            <ul class="ourcars__card-info-list">
+                                <li class="ourcars__card-info-list-item">Rok produkcji: 2014
+                                </li>
+                                <li class="ourcars__card-info-list-item">Ilość miejsc: 51+1+1</li>
+                                <li class="ourcars__card-info-list-item">WC
+                                </li>
+                                <li class="ourcars__card-info-list-item">Klimatyzacja</li>
+                                <li class="ourcars__card-info-list-item">Pasy bezpieczeństwa</li>
+                            </ul>
+                            <a href="#contact"><button class="ourcars__card-info-btn btn-special-animation">Zapytaj o termin</button></a>
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- blog 
+ -->
+
+        <section id="offers" class="offers section-padding section" id="offers">
+            <h2 class="section-heading">Oferta</h2>
+            <div class="underline"></div>
+            <div class="wrapper">
+
+                <div class="offers__box">
+
+                    <div class="offers__option">
+                        <img src="img/neoplan.jpeg" alt="Impreza z dziećmi nad wodą" class="offers__option-img">
+                        <div class="offers__option-info">
+                            <h3 class="offers__option-heading">Wynajem autokaru na wycieczkę</h3>
+                            <p class="offers__option-text">Jeśli potrzebujesz wynająć autokar na wycieczkę, wyjazd
+                                firmowy, przewóz osób do ośrodka wczasowego to dobrze trafiłeś. Progress Travel
+                                dysponuje nowoczesnymi autokarami które spełnią twoje oczekiwania. Wygoda i komfort
+                                podczas długiej podróży są niezwykle warze, by w świetnym nastroju dotrzeć do miejsca
+                                wybrane przez na spędzenie wolnego czasu.</p>
+                            <p class="offers__option-text">Nasi kierowcy wykazują się niezwykłym profesjonalizmem,
+                                posiadają wszystkie niezbędne uprawnienia i umiejętności oby podróż w naszymi autokarami
+                                / busami przebiegała we wspaniałej niczym nie zakłóconej atmosferze.</p>
+
+                        </div>
+                    </div>
+                    <div class="offers__option">
+                        <img src="img/man.jpeg" alt="Wypad z kumplami"
+                            class="offers__option-img offers__option-img--right">
+                        <div class="offers__option-info">
+                            <h3 class="offers__option-heading">Przewóz osób na imprezy okolicznościowe</h3>
+                            <p class="offers__option-text">Przewóz osób na imprezy okolicznościowe – wesela, stypy,
+                                jubileuszowe. Planujesz podstawić autokar / busa dla gości przybyłych na wydarzenie
+                                które organizujesz ? Progress Trawell Michał Przybylski pomoże w organizacji przewozu
+                                osób. Posiadamy doświadczenie w przewożeniu osób w konkretne miejsca a ceny są
+                                przystępne.
+                            </p>
+                            <p class="offers__option-text">Jeśli stoisz przed dylematem jakiego przewoźnika wybrać do
+                                transportu osób to dobrze trafiłeś, posiadamy nowoczesne autokary ze świetnym
+                                wyposażeniem oraz busy. Dostosujemy się do ilości osób jaką potrzebujesz przewieźć.
+                                Nasie kierowcy posiadają niezbędne kwalifikacje i uprawnienia.</p>
+
+                        </div>
+                    </div>
+                    <div class="offers__option">
+                        <img src="img/wynajem-busa-Częstochowa.jpeg" alt="Tylko we dwoje" class="offers__option-img">
+                        <div class="offers__option-info">
+                            <h3 class="offers__option-heading">Bus Częstochowa / Radomsko</h3>
+                            <p class="offers__option-text">Wynajmujemy busy na okolicę Częstochowy oraz radomska,
+                                dysponujemy nowoczesnym i nie dużymi busami, które idealnie nadadzą się na:
+                            </p>
+                            <p class="offers__option-text">
+
+                                wycieczki klasowe <br>
+                                gości na nie duże imprezy rodzinne <br>
+                                na wyjazdy firmowe <br>
+                                wycieczki organizowane dla nie dużej grupy osób <br>
+                                wyjazdy szkolne an basen <br>
+                                imprezy typu 40-stka , 18-nastka
+
+                            </p>
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- opinie  -->
+
+        <section class="reviews section-padding2 section" id="reviews">
+            <h2 class="section-heading">Opinie</h2>
+            <div class="underline"></div>
+            <div class="wrapper">
+                <div class="reviews__boxes">
+                    <div class="reviews__box">
+                        <div class="reviews__box-info">
+                            <div class="reviews__box-quote-left"> <i class="fas fa-quote-left"></i> </div>
+                            <p class="reviews__box-text">
+                                Miałam przyjemność podróżowania z Panem Michałem podczas wyjazdu firmowego. Bardzo
+                                polecam.
+                                Autokar bardzo czysty i wygodny. Pan Michał bardzo sympatyczny i przede wszystkim bardzo
+                                dobry kierowca :)
+                                Jeśli szukacie transportu - lepiej nie można było trafić! :)
+                            </p>
+                            <div class="reviews__box-quote-right"> <i class="fas fa-quote-right"></i> </div>
+                            <strong>Agata K.</strong>
+                        </div>
+                    </div>
+                    <div class="reviews__box">
+                        <div class="reviews__box-info">
+                            <div class="reviews__box-quote-left"> <i class="fas fa-quote-left"></i> </div>
+                            <p class="reviews__box-text">
+                                Polecamy z czystym sumieniem. Pan Michał nie tylko wzorowo przewiózł uczestników na
+                                wycieczkę do Olsztyna, ale także pomógł w zorganizowaniu przewodnika i zaproponował nam
+                                kilka ciekawych lokalnych atrakcji, o których nie mieliśmy pojęcia. Ogólnie szofer do
+                                tańca i do różańca - świetnie ogarnia atmosferę wśród uczestników (czasem jakiś film,
+                                czasem muzyka) tak, że nawet nie widać kiedy ten czas zlatuje. Dzieci i rodzice pytają
+                                kiedy znów jedziemy. Oby jak najszybciej.
+                            </p>
+                            <div class="reviews__box-quote-right"> <i class="fas fa-quote-right"></i> </div>
+                            <strong>Parafia Zajączki Pierwsze</strong>
+                        </div>
+                    </div>
+                    <div class="reviews__box">
+                        <div class="reviews__box-info">
+                            <div class="reviews__box-quote-left"> <i class="fas fa-quote-left"></i> </div>
+                            <p class="reviews__box-text">
+                                Zdecydowanie klasa ! Do tej pory braliśmy autokar w innej firmie z Częstochowy, ale
+                                autokary podjeżdżały często nie posprzątane i w złym stanie. Stwierdziliśmy, że zmienimy
+                                dostawce autokaru. Pan Michał już podczas rozmowy zrobił bardzo dobre wrażenie a
+                                podstawiony autokar tylko utwierdził nas w przekonaniu, że to była dobra zmiana.
+                                Zdecydowanie Polecam!!!
+                            </p>
+                            <div class="reviews__box-quote-right"> <i class="fas fa-quote-right"></i> </div>
+                            <strong>Anna Soluch</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!-- kontakt  -->
+
+<section id="contact" class="contact section-padding section">
+
+    <h2 class="section-heading">Kontakt</h2>
+    <div class="underline"></div>
+    <div class="wrapper">
+
+        <form class="contact__form">
+
+            <div class="contact__form-top">
+                <label for="name" class="contact__form-label">Imię i nazwisko:</label>
+                <input type="text" class="contact__form-input" id="name">
+
+                <label for="email" class="contact__form-label">Adres e-mail:</label>
+                <input type="text" id="email" class="contact__form-input"> 
+
+                <label for="phone" class="contact__form-label">Numer telefonu</label>
+                <input type="text" id="phone" class="contact__form-input">
+            </div>
+
+            <label for="msg" class="contact__form-label">Wiadomość:</label>
+            <textarea id="msg" class="contact__form-textarea"></textarea>
+
+            <button type="submit" class="contact__form-btn btn-special-animation">Wyślij</button>
+
+        </form>
+    </div>
+</section>
+    </main>
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer__boxes">
+                <div class="footer__box">
+                    <h3 class="footer__box-title">Progress Travel</h3>
+                    <p>Wynajem autokarów, przewóz osób, przewozy autokarowe, wycieczki, bus Częstochowa</p>
+                </div>
+                <div class="footer__box footer__box-desktop">
+                    <h3 class="footer__box-title">adres</h3>
+                    <p>ul.Lakowa 74</p>
+                    <p>42-271 Częstochowa</p>
+                </div>
+                <div class="footer__box footer__box-desktop">
+                    <h3 class="footer__box-title">O Firmie</h3>
+                    <div class="footer__box-item">
+                        <p>+48 509 048 569</p>
+                        <p>michalautokar@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="footer__bottom-text"> &copy; <span class="footer__year"></span> Progress Travel</p>
+
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

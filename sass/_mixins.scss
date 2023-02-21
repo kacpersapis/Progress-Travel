@@ -1,0 +1,12 @@
+@mixin contactForm {
+	margin-bottom: 2em;
+	padding: .6em 1.2em;
+	border: 1px solid $dark-blue;
+	border-radius: 8px;
+	font-size: 1.6rem;
+	width: 70%;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	background-color: $white-smoke;
+}
